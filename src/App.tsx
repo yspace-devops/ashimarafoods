@@ -6,7 +6,8 @@ type MacaroniProps = {
   rotate?: number
 }
 
-function Macaroni({ className = "", delay = 0, rotate = 0 }: MacaroniProps) {
+function Macaroni({ className = "", delay = 0, rotate = 0 }: MacaroniProps) { 
+  
   return (
     <motion.svg
       viewBox="0 0 100 100"
